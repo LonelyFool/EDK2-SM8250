@@ -4,7 +4,7 @@ Attempt to create a minimal EDK2 for SM8250 (Transplanted from Pixel3XL).
 
 ## Status
 
-The boot windows10 PE is stuck in the logo
+Boot Windows10 PE is stuck in the logo
 
 Boot Linux must add kernel parameters:efi=novamap pd_ignore_unused clk_ignore_unused
 
