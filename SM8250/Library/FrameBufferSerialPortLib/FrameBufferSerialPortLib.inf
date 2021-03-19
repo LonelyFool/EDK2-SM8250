@@ -1,0 +1,30 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = FrameBufferSerialPortLib
+  MODULE_TYPE    = BASE
+  VERSION_STRING = 1.0
+  LIBRARY_CLASS  = SerialPortLib
+
+[Sources.common]
+  FrameBufferSerialPortLib.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  ArmPkg/ArmPkg.dec
+  SM8250/SM8250.dec
+
+[LibraryClasses]
+  ArmLib
+  PcdLib
+  IoLib
+  HobLib
+  CompilerIntrinsicsLib
+  CacheMaintenanceLib
+
+[Pcd]
+  gSM8250TokenSpaceGuid.PcdMipiFrameBufferAddress
+  gSM8250TokenSpaceGuid.PcdMipiFrameBufferWidth
+  gSM8250TokenSpaceGuid.PcdMipiFrameBufferHeight
+  gSM8250TokenSpaceGuid.PcdMipiFrameBufferPixelBpp
+  gSM8250TokenSpaceGuid.PcdMipiFrameBufferVisibleWidth
+  gSM8250TokenSpaceGuid.PcdMipiFrameBufferVisibleHeight
