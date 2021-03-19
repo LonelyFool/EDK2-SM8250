@@ -4,7 +4,7 @@ Attempt to create a minimal EDK2 for SM8250.
 
 ## Status
 
-The boot windows10 pe is stuck in the logo
+The boot windows10 PE is stuck in the logo
 
 ## Building
 Tested on Ubuntu 18.04.
