@@ -4,7 +4,7 @@ Attempt to create a minimal EDK2 for SM8250.
 
 ## Status
 
-Can partially boot the Fedora 29 aarch64 kernel: there's no initrd, so the kernel panics when mounting root FS.
+The boot windows10 pe is stuck in the logo
 
 ## Building
 Tested on Ubuntu 18.04.
